@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GoogleSearch_CrossBrowser_Test_Suite" parallel="tests">
+    <test name="Test_Chrome">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.test.selenium.GoogleSearch_CrossBrowser_Test" />
+        </classes>
+    </test>
+
+
+    <test name="Test_Firefox">
+        <parameter name="browser" value="firefox" />
+        <classes>
+            <class name="com.test.selenium.OrangeHRM_login_logout" />
+        </classes>
+    </test>
+
+  <!-->test name="Test_IE">
+        <parameter name="browser" value="ie" />
+        <classes>
+            <class name="com.test.selenium.GoogleSearch_CrossBrowser_Test" />
+        </classes>
+    </test-->
+</suite>

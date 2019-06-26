@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG Suite]">
+  <test thread-count="5" name="StringTest(failed)">
+    <classes>
+      <class name="com.selenium.testNGbasics.StringOperationTest">
+        <methods>
+          <include name="delobj"/>
+          <include name="testrev"/>
+          <include name="createobj"/>
+        </methods>
+      </class> <!-- com.selenium.testNGbasics.StringOperationTest -->
+    </classes>
+  </test> <!-- StringTest(failed) -->
+</suite> <!-- Failed suite [TestNG Suite] -->

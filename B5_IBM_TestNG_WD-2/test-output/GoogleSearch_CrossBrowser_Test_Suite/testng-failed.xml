@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [GoogleSearch_CrossBrowser_Test_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test_IE(failed)">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.test.selenium.GoogleSearch_CrossBrowser_Test">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- com.test.selenium.GoogleSearch_CrossBrowser_Test -->
+    </classes>
+  </test> <!-- Test_IE(failed) -->
+</suite> <!-- Failed suite [GoogleSearch_CrossBrowser_Test_Suite] -->
